@@ -1,0 +1,6 @@
+
+
+AttributeError: module ‘distutils‘ has no attribute ‘version‘ 解决方案
+pip uninstall setuptools
+pip install setuptools==59.5.0
+https://blog.csdn.net/weixin_46133643/article/details/125344874
